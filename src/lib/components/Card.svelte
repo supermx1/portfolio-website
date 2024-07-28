@@ -19,7 +19,7 @@
 <div style="opacity: 1; filter: blur(0px); transform: translateY(-6px) translateZ(0px);">
 	<div
 		class="rounded-lg text-card-foreground flex flex-col overflow-hidden border hover:bg-gray-950/[.02] hover:shadow-lg transition-all duration-300 ease-out h-full">
-		<a class="block cursor-pointer" href={data.url}>
+		<a class="block cursor-pointer" href={data.url} target="_blank">
 			{#if data.mediaType === 'video'}
 			<video src={data.mediaUrl} autoplay="true" loop="true" muted="true"
 						 playsinline="" class="pointer-events-none mx-auto h-40 w-full object-cover object-top">
