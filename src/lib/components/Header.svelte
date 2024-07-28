@@ -1,4 +1,5 @@
 <script>
+	import  { siteName } from '$lib/data/db';
 	import { onMount } from 'svelte';
 	import Icon from '@iconify/svelte';
 
@@ -49,7 +50,7 @@
 			<!-- Logo -->
 			<div>
 				<a class="flex-none rounded-md text-xl inline-block font-black focus:outline-none focus:opacity-80" href="#" aria-label="Logo Link">
-					emeka<span class="text-primary-400">.pro</span>
+					{@html siteName}
 				</a>
 			</div>
 			<!-- End Logo -->

@@ -1,4 +1,5 @@
 <script>
+	import  { siteName } from '$lib/data/db';
 	import Icon from '@iconify/svelte';
 </script>
 
@@ -8,7 +9,7 @@
 		<div class="flex flex-wrap justify-between items-center gap-2">
 			<div>
 				<p class="text-xs text-gray-600 dark:text-neutral-400 font-black">
-					© {new Date().getFullYear()} emeka<span class="text-primary-400">.pro</span>.
+					© {new Date().getFullYear()} {@html siteName}.
 				</p>
 			</div>
 			<!-- End Col -->
