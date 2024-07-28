@@ -1,3 +1,5 @@
+
+
 type Profile = {
 	item: string;
 	url: string;
@@ -63,6 +65,8 @@ type Education = {
 }
 
 type Educations = Education[];
+
+export const siteName = `emeka<span class="text-primary-400">.pro</span>`;
 
 export const profile: Profiles = [
 	{
