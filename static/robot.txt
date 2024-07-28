@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Disallow: /private/
+Disallow: /*.js$
+Disallow: /*.json
+Allow: /
+
+Sitemap: https://emeka.pro/sitemap.xml
