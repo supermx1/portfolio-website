@@ -21,7 +21,7 @@
 		class="rounded-lg text-card-foreground flex flex-col overflow-hidden border hover:bg-gray-950/[.02] hover:shadow-lg transition-all duration-300 ease-out h-full">
 		<a class="block cursor-pointer" href={data.url}>
 			{#if data.mediaType === 'video'}
-			<video src={data.mediaUrl} autoplay="true" loop=""
+			<video src={data.mediaUrl} autoplay="true" loop="true" muted="true"
 						 playsinline="" class="pointer-events-none mx-auto h-40 w-full object-cover object-top">
 			</video>
 				{:else}

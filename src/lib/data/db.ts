@@ -165,7 +165,7 @@ export const reviews: Reviews = [
 export const projects: Projects = [
 	{
 		name: 'Ogidi Digital Mapping Excercise',
-		mediaUrl: 'videos/project7.mp4',
+		mediaUrl: 'https://emeka.pages.dev/videos/project7.mp4',
 		date: 'Jan 2024 - Jun 2024',
 		mediaType: 'video',
 		description: 'A digial map using Census data of a village.',
