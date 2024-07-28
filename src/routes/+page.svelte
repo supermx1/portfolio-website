@@ -96,7 +96,7 @@
 				Reviews
 			</h2>
 
-			<Testimonials pauseOnHover class="[--duration:20s]" data={reviews} />
+			<Testimonials pauseOnHover class="[--duration:20s]"  data={reviews} />
 
 		</div>
 		<!-- End Testimonials -->
