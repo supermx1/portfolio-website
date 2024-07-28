@@ -188,7 +188,7 @@ export const projects: Projects = [
 		mediaUrl: 'videos/project1.mp4',
 		date: 'Aug 2019 - Aug 2023',
 		mediaType: 'video',
-		description: 'A project that does something.',
+		description: 'A data management and automation portal.',
 		tools: ['Bootstrap', 'Laravel', 'Sketch', 'CMS', 'LeafletJS'],
 		url: 'https://supermx1.github.io/nafdac-portal/',
 		source: 'https://github.com/supermx1/nafdac-portal'
@@ -198,7 +198,7 @@ export const projects: Projects = [
 		mediaUrl: 'videos/project2.mp4',
 		date: 'Apr 2022',
 		mediaType: 'video',
-		description: 'A project that does something.',
+		description: 'A cryptocurrency asset management portal.',
 		tools: ['Tailwind', 'React', 'DApp', 'Github', 'Blockchain'],
 		url: 'https://supermx1.github.io/crypto-web3/',
 		source: 'https://github.com/supermx1/crypto-web3'
@@ -208,8 +208,8 @@ export const projects: Projects = [
 		mediaUrl: 'videos/project4.mp4',
 		date: 'May 2022',
 		mediaType: 'video',
-		description: 'An eCommerce platform.',
-		tools: ['Wordpress', 'Elementor', 'SvelteKit', 'Cloudflare', 'PayStack'],
+		description: 'An eCommerce platform with payment integration.',
+		tools: ['Wordpress', 'Elementor', 'WooCommerce', 'SvelteKit', 'Cloudflare', 'PayStack'],
 		url: 'https://kuvuki.ng/',
 		source: ''
 	},
