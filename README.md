@@ -11,3 +11,6 @@ pnpm dev
 ```
 
 You can edit the `src/lib/data/db.js` file to add your own information.
+
+## TODO 📝
+- [ ] Complete the dark mode feature

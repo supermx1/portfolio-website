@@ -70,7 +70,7 @@ export const siteName = `emeka<span class="text-primary-400">.pro</span>`;
 
 export const profile: Profiles = [
 	{
-		item: "hello@emeka.pro",
+		item: "anyakora@emeka.pro",
 		url: "mailto:hello@emeka.pro",
 		icon: "hugeicons:mail-02"
 	},
