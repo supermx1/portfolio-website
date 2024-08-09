@@ -43,6 +43,7 @@
 		"@dicebear/core": "^9.2.1",
 		"@sentry/sveltekit": "^8.20.0",
 		"clsx": "^2.1.1",
+		"mode-watcher": "^0.4.1",
 		"tailwind-merge": "^2.4.0"
 	}
 }
