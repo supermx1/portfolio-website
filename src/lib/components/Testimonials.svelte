@@ -25,7 +25,7 @@
 </script>
 
 <div
-	class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden "
+	class="relative flex h-full w-full flex-col items-center justify-center overflow-hidden"
 >
 
 <div

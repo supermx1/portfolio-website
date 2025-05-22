@@ -168,6 +168,26 @@ export const reviews: Reviews = [
 
 export const projects: Projects = [
 	{
+		name: 'Kasa',
+		mediaUrl: 'https://emeka.pages.dev/videos/project9.mp4',
+		date: 'Feb 2024 - May 2025',
+		mediaType: 'video',
+		description: 'A real estate app for buying, selling and letting real estate.',
+		tools: ['NodeJS', 'Hetzner Cloud', 'Sveltekit', 'GoLang', 'SQLite', 'PWA', 'PayStack', 'Ubuntu/Linux'],
+		url: 'https://kasa.africa',
+		source: ''
+	},
+	{
+		name: 'Tottales',
+		mediaUrl: 'https://emeka.pages.dev/videos/project8.mp4',
+		date: 'Sept 2024 - Dec 2024',
+		mediaType: 'video',
+		description: 'A edutech app for parents to monitor their children\'s progress.',
+		tools: ['Wordpress', 'CMS', 'MySQL', 'NodeJS', 'Hetzner Cloud', 'Sveltekit', 'GoLang', 'SQLite'],
+		url: 'https://tottales.ng',
+		source: ''
+	},
+	{
 		name: 'Ogidi Digital Mapping Excercise',
 		mediaUrl: 'https://emeka.pages.dev/videos/project7.mp4',
 		date: 'Jan 2024 - Jun 2024',
@@ -362,6 +382,23 @@ export const articles: Articles = [
 
 export const experiences: Experiences = [
 	{
+		icon: '/logos/2.webp',
+		position: 'Freelance Software Developer',
+		company: 'TechGFX Technologies Limited',
+		date: '2015 - 2025',
+		description: '',
+		keyPoints: [
+			'Currently building a Real Estate SaaS solution, which aims to revolutionize property management in the African space. Targeting over 8000 active realtors in its pre-launch phase.',
+			'Designed and developed a Startup EdTech application for early educators and families to collaborate. The software has over 100 active users in its current prelaunch phase. ',
+			'I designed and implemented a Census/Digital Mapping solution with real-time analytics for a Nigerian village, increasing data collection efficiency by 90% and capturing over 29,000 residents and 5,000 buildings.',
+			'I designed and implemented a comprehensive database management system for NAFDAC, centralizing company, product, and inspection data. This system improved data accessibility and analysis capabilities, enabling more efficient regulatory processes.',
+			'Designed and developed my portfolio website (emeka.pro) using WordPress REST API and React, resulting in a 70% increase in client conversion and reach.',
+			'Developed various cross-platform applications including QuikInvoice (invoicing solution), What\'s For Dinner (food recommendation app), Car8 (car rating and comparison app), and Senda (fintech app for money transfer and business management).',
+			'Created the Nigerian Banks API, providing comprehensive details about Nigerian banks, demonstrating expertise in API development and data management (available on GitHub).',
+			'I provided IT technical support services, including software installation, laptop repair, and over-the-phone consultation.'
+		]
+	},
+	{
 		icon: '/logos/1.webp',
 		position: 'Senior Programmer Analyst',
 		company: 'National Population Commission',
@@ -376,22 +413,8 @@ export const experiences: Experiences = [
 			'I developed and maintained various internal applications for the commission (details omitted for brevity).',
 			'I provided IT technical support, including software application installations and hardware upgrades.'
 		]
-	},
-	{
-		icon: '/logos/2.webp',
-		position: 'Freelance Software Developer',
-		company: 'TechGFX Technologies Limited',
-		date: '2015 - 2024',
-		description: '',
-		keyPoints: [
-			'I designed and implemented a Census/Digital Mapping solution with real-time analytics for a Nigerian village, increasing data collection efficiency by 90% and capturing over 29,000 residents and 5,000 buildings.',
-			'I designed and implemented a comprehensive database management system for NAFDAC, centralizing company, product, and inspection data. This system improved data accessibility and analysis capabilities, enabling more efficient regulatory processes.',
-			'Designed and developed my portfolio website (emeka.pro) using WordPress REST API and React, resulting in a 70% increase in client conversion and reach.',
-			'Developed various cross-platform applications including QuikInvoice (invoicing solution), What\'s For Dinner (food recommendation app), Car8 (car rating and comparison app), and Senda (fintech app for money transfer and business management).',
-			'Created the Nigerian Banks API, providing comprehensive details about Nigerian banks, demonstrating expertise in API development and data management (available on GitHub).',
-			'I provided IT technical support services, including software installation, laptop repair, and over-the-phone consultation.'
-		]
-	},
+	}
+
 ];
 
 export const education: Educations = [
