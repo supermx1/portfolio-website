@@ -5,6 +5,7 @@
 	 * @property {string} company - The company of the item.
 	 * @property {string} position - The title of the item.
 	 * @property {string} date - The date of the item.
+	 * @property {boolean} show - Show or hide the item.
 	 * @property {string} description - The description of the item.
 	 * @property {string[]} keyPoints - The tools used in the item.
 	 */
@@ -14,11 +15,13 @@
 	 */
 	export let data = [];
 
+	let showIndex = data.findIndex(item => item.show === true) || 0;
+
 </script>
 
 
 <div>
-	{#each data as { position, icon, company, date, description, keyPoints }, index}
+	{#each data as { position, icon, company, date, show, description, keyPoints }, index}
 	<!-- Item -->
 		<div class="group relative flex gap-x-5">
 		<!-- Icon -->
@@ -45,7 +48,7 @@
 				</p>
 			{/if}
 
-			{#if keyPoints}
+			{#if keyPoints && showIndex === index}
 				<ul class="list-disc ms-6 mt-3 space-y-1.5">
 					{#each keyPoints as keyPoint}
 						<li class="ps-1 text-sm text-gray-600 dark:text-neutral-400">
@@ -54,6 +57,15 @@
 					{/each}
 				</ul>
 			{/if}
+
+
+				<button class="mt-3 text-xs text-primary-500 hover:underline dark:text-primary-400" onclick={() => showIndex = index}>
+					{#if show}
+						Show more
+							{:else}
+						Show less
+					{/if}
+				</button>
 		</div>
 		<!-- End Right Content -->
 	</div>
