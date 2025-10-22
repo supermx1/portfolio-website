@@ -51,6 +51,7 @@ type Experience = {
 	position: string;
 	company: string;
 	date: string;
+	show: boolean;
 	description: string;
 	keyPoints: string[];
 }
@@ -85,8 +86,8 @@ export const profile: Profiles = [
 		icon: "hugeicons:github-01"
 	},
 	{
-		item: "Northampton, UK",
-		url: "https://maps.app.goo.gl/c8ombk4xfGeFpw1B9",
+		item: "Oxford, UK",
+		url: "https://www.google.com/maps/place/Oxford/",
 		icon: "hugeicons:location-01"
 	}
 ]
@@ -382,11 +383,28 @@ export const articles: Articles = [
 
 export const experiences: Experiences = [
 	{
+		icon: '/logos/5.webp',
+		position: 'Information Technology Support Assistant',
+		company: 'University of Oxford',
+		date: '2025',
+		description: '',
+		show: true,
+		keyPoints: [
+			'Supporting a major IT infrastructure relocation project across Oxford University\'s campus, handling the end-to-end process of relocating, documenting, and reassembling IT equipment for seamless operational continuity.',
+			'Successfully relocated 100+ workstations across 5 campus buildings',
+			'Managing hands-on hardware setup, including computers, monitors, docking stations, and peripherals, while ensuring proper cable management and network connectivity across multiple sites',
+			'Maintaining rigorous inventory control and asset tracking procedures to ensure equipment accountability throughout the relocation process.',
+			'Collaborating with technical and non-technical teams to deliver a smooth transition experience, troubleshooting connectivity issues, and preparing workstations for immediate use.'
+
+		]
+	},
+	{
 		icon: '/logos/2.webp',
 		position: 'Freelance Software Developer',
 		company: 'TechGFX Technologies Limited',
 		date: '2015 - 2025',
 		description: '',
+		show: false,
 		keyPoints: [
 			'Currently building a Real Estate SaaS solution, which aims to revolutionize property management in the African space. Targeting over 8000 active realtors in its pre-launch phase.',
 			'Designed and developed a Startup EdTech application for early educators and families to collaborate. The software has over 100 active users in its current prelaunch phase. ',
@@ -404,6 +422,7 @@ export const experiences: Experiences = [
 		company: 'National Population Commission',
 		date: '2018 - 2024',
 		description: '',
+		show: false,
 		keyPoints: [
 			'I Increased birth registration by 25% and death registration by 15% in Nigeria through the development of VitalReg Pro Web and Mobile Application.',
 			'I designed and developed Staff Attendance Management application (cross-platform) using Framework7, Svelte, and Android Studio. Improved data accuracy by 60% and provided real-time insights into employee attendance patterns.',
