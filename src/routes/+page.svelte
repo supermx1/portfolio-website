@@ -16,7 +16,7 @@
 		<!-- Profile -->
 		<div class="flex items-center gap-x-3">
 			<div class="shrink-0">
-				<img class="shrink-0 size-16 aspect-auto rounded-full" src="emeka.webp" alt="Avatar">
+				<img class="shrink-0 size-16 aspect-auto rounded-full" src="emeka2.webp" alt="Avatar">
 			</div>
 
 			<div class="grow">
