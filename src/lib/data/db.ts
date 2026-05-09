@@ -86,8 +86,8 @@ export const profile: Profiles = [
 		icon: "hugeicons:github-01"
 	},
 	{
-		item: "Northampton, UK",
-		url: "https://maps.app.goo.gl/c8ombk4xfGeFpw1B9",
+		item: "United Kingdom",
+		url: "https://www.google.com/maps/place/United+Kingdom/",
 		icon: "hugeicons:location-01"
 	}
 ]
