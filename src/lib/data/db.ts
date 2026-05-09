@@ -86,8 +86,8 @@ export const profile: Profiles = [
 		icon: "hugeicons:github-01"
 	},
 	{
-		item: "Oxford, UK",
-		url: "https://www.google.com/maps/place/Oxford/",
+		item: "UK",
+		url: "https://www.google.com/maps/place/United+Kingdom/",
 		icon: "hugeicons:location-01"
 	}
 ]
@@ -168,9 +168,29 @@ export const reviews: Reviews = [
 	];
 
 export const projects: Projects = [
+		{
+		name: 'PowerShare',
+		mediaUrl: '/videos/project10.mp4',
+		date: 'Apr 2026 - Present',
+		mediaType: 'video',
+		description: 'An IOT based electricity sharing and payments platform.',
+		tools: ['NodeJS', 'Hetzner Cloud', 'Sveltekit', 'GoLang', 'SQLite', 'PWA', 'PayStack', 'Ubuntu/Linux', 'Figma', 'AI'],
+		url: 'https://usepowershare.com',
+		source: ''
+	},
+			{
+		name: 'VibeUI',
+		mediaUrl: '/videos/project11.mp4',
+		date: 'Jan 2026',
+		mediaType: 'video',
+		description: 'A web UI library for creating beautiful web interfaces.',
+		tools: ['NodeJS', 'Hetzner Cloud', 'Sveltekit', 'GoLang', 'SQLite', 'PWA', 'Ubuntu/Linux', 'Figma', 'AI'],
+		url: 'https://vibeui.emeka.pro',
+		source: ''
+	},
 	{
 		name: 'Kasa',
-		mediaUrl: 'https://emeka.pages.dev/videos/project9.mp4',
+		mediaUrl: '/videos/project9.mp4',
 		date: 'Feb 2024 - May 2025',
 		mediaType: 'video',
 		description: 'A real estate app for buying, selling and letting real estate.',
@@ -180,7 +200,7 @@ export const projects: Projects = [
 	},
 	{
 		name: 'Tottales',
-		mediaUrl: 'https://emeka.pages.dev/videos/project8.mp4',
+		mediaUrl: '/videos/project8.mp4',
 		date: 'Sept 2024 - Dec 2024',
 		mediaType: 'video',
 		description: 'A edutech app for parents to monitor their children\'s progress.',
@@ -190,7 +210,7 @@ export const projects: Projects = [
 	},
 	{
 		name: 'Ogidi Digital Mapping Excercise',
-		mediaUrl: 'https://emeka.pages.dev/videos/project7.mp4',
+		mediaUrl: '/videos/project7.mp4',
 		date: 'Jan 2024 - Jun 2024',
 		mediaType: 'video',
 		description: 'A digial map using Census data of a village.',
