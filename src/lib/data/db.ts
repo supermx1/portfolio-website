@@ -429,7 +429,7 @@ export const experiences: Experiences = [
 		company: 'TechGFX Technologies Limited',
 		date: '2015 - 2025',
 		description: '',
-		show: false,
+		show: true,
 		keyPoints: [
 			'Currently building a Real Estate SaaS solution, which aims to revolutionize property management in the African space. Targeting over 8000 active realtors in its pre-launch phase.',
 			'Designed and developed a Startup EdTech application for early educators and families to collaborate. The software has over 100 active users in its current prelaunch phase. ',
@@ -447,7 +447,7 @@ export const experiences: Experiences = [
 		company: 'National Population Commission',
 		date: '2018 - 2024',
 		description: '',
-		show: false,
+		show: true,
 		keyPoints: [
 			'I Increased birth registration by 25% and death registration by 15% in Nigeria through the development of VitalReg Pro Web and Mobile Application.',
 			'I designed and developed Staff Attendance Management application (cross-platform) using Framework7, Svelte, and Android Studio. Improved data accuracy by 60% and provided real-time insights into employee attendance patterns.',
