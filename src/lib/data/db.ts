@@ -86,6 +86,11 @@ export const profile: Profiles = [
 		icon: "hugeicons:github-01"
 	},
 	{
+		item: "@TheAverageTechDad",
+		url: "https://www.youtube.com/@TheAverageTechDad",
+		icon: "hugeicons:youtube"
+	},
+	{
 		item: "United Kingdom",
 		url: "https://www.google.com/maps/place/United+Kingdom/",
 		icon: "hugeicons:location-01"
