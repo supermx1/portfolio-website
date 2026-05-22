@@ -105,29 +105,29 @@
 		<!-- End Testimonials -->
 
 		<!-- Work Experience -->
-		<div class="mt-10 sm:mt-14">
-			<h2 class="mb-5 font-bold text-gray-800 dark:text-neutral-200">
-				Work experience
-			</h2>
+<!--		<div class="mt-10 sm:mt-14">-->
+<!--			<h2 class="mb-5 font-bold text-gray-800 dark:text-neutral-200">-->
+<!--				Work experience-->
+<!--			</h2>-->
 
-			<!-- Timeline -->
-			<Experience data={experiences} />
-			<!-- End Timeline -->
-		</div>
+<!--			&lt;!&ndash; Timeline &ndash;&gt;-->
+<!--			<Experience data={experiences} />-->
+<!--			&lt;!&ndash; End Timeline &ndash;&gt;-->
+<!--		</div>-->
 		<!-- End Work Experience -->
 
 		<!-- Education -->
-		<div class="mt-10 sm:mt-14">
-			<h2 class="mb-3 font-bold text-gray-800 dark:text-neutral-200">
-				Education
-			</h2>
+<!--		<div class="mt-10 sm:mt-14">-->
+<!--			<h2 class="mb-3 font-bold text-gray-800 dark:text-neutral-200">-->
+<!--				Education-->
+<!--			</h2>-->
 
-			<!-- Grid -->
-			<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-				<Education data={education}/>
-			</div>
-			<!-- End Grid -->
-		</div>
+<!--			&lt;!&ndash; Grid &ndash;&gt;-->
+<!--			<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">-->
+<!--				<Education data={education}/>-->
+<!--			</div>-->
+<!--			&lt;!&ndash; End Grid &ndash;&gt;-->
+<!--		</div>-->
 		<!-- End Education -->
 
 		<!-- Articles -->
